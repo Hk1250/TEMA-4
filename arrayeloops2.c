@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-#define linhas 5
-#define coluna 5
+#define linhas 8
+#define coluna 8
 
 int main () {
 
     int matriz[linhas][coluna];
     int soma = 0;
 
-    for (int i = 0; i < linhas; i++)
+    for (int i =0; i < linhas; i++)
     {
         for (int j = 0; j < coluna; j++)
         {
